@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Pomodoro Clock</title>
+  </head>
+  <body>
+    <div id="pomodoro-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <label for="sessionLength">SESSION LENGTH (MINS)</label>
+            <input id="sessionLength" type="text" value="0" name="sessionLength">
+          </div>
+          <div class="col-md-6">
+            <label for="sessionBreak-url">BREAK LENGTH (MINS)</label>
+            <input id="sessionBreak" type="text" value="0" name="sessionBreak">
+          </div>        
+        </div><!--./row-->
+        <div class="row">
+          <div class="col-md-6">
+            <button id="buttonReset" type="button" class="btn btn-danger">Reset</button>
+          </div>  
+          <div class="col-md-6">
+            <button id="buttonStart" type="button" class="btn btn-success">Start</button>
+          </div> 
+        </div><!--./row-->
+        <div class="row">
+          <div class="col-md-12">
+            <div id="progressbar" class="c100 p100 big center">
+              <span id="displaySession">00:00</span>
+              <div class="slice">
+                <div class="bar"></div>
+                <div class="fill"></div>
+              </div>
+            </div>
+          </div>  
+        </div><!--./row-->  
+      </div><!--./container-->
+    </div><!--./pomodoro-wrapper-->  
+  </body>
+</html>

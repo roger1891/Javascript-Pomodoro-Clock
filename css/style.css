@@ -1,0 +1,26 @@
+html,
+body {
+  background: #ecf0f1;
+  color: #444;
+  font-family: 'Lato', Tahoma, Geneva, sans-serif;
+  font-size: 16px;
+}
+
+input {
+  text-align: center;
+}
+
+#pomodoro-wrapper {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.row {
+  margin: 25px 0;
+}
+
+  .c100 .bar, .c100.p100 .fill  {
+  border: 0.08em solid #5cb85c;
+  
+}
